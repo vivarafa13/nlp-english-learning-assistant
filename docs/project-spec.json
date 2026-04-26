@@ -1,0 +1,35 @@
+{
+  "proyecto": {
+    "nombre_oficial": "Método Bremerton / Semantic Contextualizer",
+    "dominio": "Procesamiento de Lenguaje Natural (NLP) aplicado a la Educación (IELTS)",
+    "justificacion_mercado": "El inglés cuenta con 1.493 millones de hablantes (20% de la población mundial). Existe una necesidad crítica de reducir la latencia cognitiva al leer textos especializados como 'The Economist'.",
+    "metodologia_diseno": "Design Thinking (Fases: Empatía, Definición, Ideación, Prototipado)",
+    "analisis_funcional_fase_1": {
+      "input": "Palabra clave + Contexto (<20 palabras).",
+      "procesamiento": "Inferencia semántica mediante LLM.",
+      "output": [
+        "ADN de la palabra (Pronunciación IPA, Significado pragmático)",
+        "The Vibe (Analogía visual para fijación de concepto)",
+        "Contador de tokens (Transparencia y control de costos)"
+      ]
+    },
+    "analisis_funcional_fase_2": {
+      "features": [
+        "Mnemónica Web: Conexión relacional de las últimas 5 palabras consultadas.",
+        "Escala de Intensidad: Jerarquía de matices académicos.",
+        "IELTS Strategy: Tips de uso para Writing Task 2 y Speaking."
+      ]
+    },
+    "arquitectura_tecnica": {
+      "frontend": "R / Shiny",
+      "puente_orquestacion": "Python (vía librería reticulate)",
+      "motor_ia": "Local (Ollama + Llama 3 8B) con pivote a Cloud API (Google AI Studio / Gemini API) por restricciones de hardware.",
+      "limitaciones_hardware_usuario": {
+        "cpu_gpu": "Intel HD Graphics 5500",
+        "ram_total": "8 GB",
+        "ram_disponible": "1.7 GB"
+      }
+    },
+    "estrategia_gestion": "Desarrollo modular (MVP) para mitigar riesgos de latencia y caducidad de licencias estudiantiles."
+  }
+}
