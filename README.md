@@ -108,3 +108,10 @@ Basado en Design Thinking:
 * Asistente autónomo de aprendizaje
 * Reducción radical del tiempo de comprensión
 * Sistema adaptable por dominio
+
+---
+
+## Demo
+
+Streamlit interface:
+👉 [[Link a tu app](https://nlp-english-learning-assistant-druqfucyyzvonf3xczu6hm.streamlit.app/)]
