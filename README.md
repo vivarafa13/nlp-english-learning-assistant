@@ -75,7 +75,7 @@ Basado en Design Thinking:
 
 ## 🏗️ Architecture
 
-* Frontend: R Shiny
+* Frontend: R streamlit
 * Orchestration: Python (reticulate)
 * AI Engine:
 
